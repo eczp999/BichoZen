@@ -1,0 +1,7 @@
+# URLs do site antigo, ainda indexadas no Google → página única
+/a-clinica/*     /#equipe      301
+/servicos/*      /#servicos    301
+/veterinarios/*  /#equipe      301
+/contato/*       /#local       301
+/index.php       /             301
+/*               /index.html   200

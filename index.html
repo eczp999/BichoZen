@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veterinário 24h em Londrina | BichoZen — cães, gatos e pets exóticos</title>
+<meta name="description" content="Clínica veterinária 24 horas em Londrina. Plantão clínico-cirúrgico presencial todos os dias para cães, gatos, aves, répteis, quelônios, coelhos, roedores e peixes. Av. JK, 2525 — Ipiranga. (43) 3037-0755.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#F3EBDC">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="https://clinicabichozen.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="BichoZen — Clínica Veterinária 24h">
+<meta property="og:title" content="Veterinário 24h em Londrina | BichoZen — cães, gatos e pets exóticos">
+<meta property="og:description" content="Plantão 24 horas todos os dias em Londrina. Atendemos cães, gatos, aves, répteis, quelônios, coelhos, roedores e peixes.">
+<meta property="og:url" content="https://clinicabichozen.com.br/">
+<meta name="geo.region" content="BR-PR">
+<meta name="geo.placename" content="Londrina">
+<meta name="geo.position" content="-23.3196385;-51.164115">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap">
+<style>
+/* =========================================================================
+   BichoZen V3 — página única. Tokens da marca (verde-floresta + vinho).
+   Sem framework, sem dependência. Para editar cor, mexa só aqui embaixo.
+   ========================================================================= */
+:root{
+  /* UM tom de fundo para o site inteiro — nenhuma seção muda de cor.
+     --bg é o creme da página; --surface é o branco dos cartões. O contraste
+     entre os dois é o que dá relevo, no lugar de faixas de cor. */
+  --bg:#F3EBDC; --surface:#FFFFFF; --surface-2:#EDE5D3; --border:#DFD4BC;
+  --fg:#1A1A18; --muted:#55554D;
+  /* verde-floresta continua na marca, mas só em texto, ícone e borda.
+     --brand-solid (mais claro) é o único verde que preenche área, e só em botão. */
+  --brand:#1C5240; --brand-solid:#22694F; --brand-deep:#1A5440; --brand-soft:#E6EFE8;
+  --urgent:#7A1C2F; --urgent-solid:#8A1F35; --urgent-soft:#F7E4E8;
+  --gold:#C08A1E;
+  color-scheme:light;
+  --wa:#1FA855; --on-brand:#FFFFFF;
+  --r:14px; --r-sm:10px;
+  --sh-sm:0 1px 2px rgba(20,30,25,.06);
+  --sh:0 6px 18px rgba(20,30,25,.08);
+  --sh-lg:0 16px 40px rgba(20,30,25,.13);
+  --wrap:1180px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  font-family:"Source Sans 3",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:17px;line-height:1.65;overflow-x:hidden;
+  padding-bottom:env(safe-area-inset-bottom);
+}
+h1,h2,h3,h4{font-family:Lora,Georgia,serif;font-weight:600;line-height:1.2;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,1.3rem + 2.9vw,3.3rem)}
+h2{font-size:clamp(1.55rem,1.15rem + 1.7vw,2.4rem)}
+h3{font-size:1.2rem}
+p{margin:0}
+a{color:var(--brand);text-decoration-thickness:1px;text-underline-offset:3px}
+img,svg{max-width:100%}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:4px}
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:16px}
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:-9999px;top:0;z-index:999;background:var(--brand-solid);color:#fff;padding:12px 18px;border-radius:0 0 8px 0}
+.skip:focus{left:0}
+.sprite{position:absolute;width:0;height:0;overflow:hidden}
+svg{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ico{width:20px;height:20px;flex:none}
+.art{width:36px;height:36px;stroke-width:1.7;flex:none;color:var(--brand)}
+
+/* ---------- topo ---------- */
+.topbar{background:var(--bg);color:var(--brand);border-bottom:1px solid var(--border);font-size:.86rem}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:38px;flex-wrap:wrap}
+.topbar a{color:var(--brand);text-decoration:none;font-weight:700}
+.topbar a:hover{text-decoration:underline}
+.status{display:inline-flex;align-items:center;gap:8px;font-weight:600}
+.dot{width:9px;height:9px;border-radius:50%;background:#2FA86A;box-shadow:0 0 0 0 rgba(47,168,106,.5);animation:pulse 2.4s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(47,168,106,0)}100%{box-shadow:0 0 0 0 rgba(47,168,106,0)}}
+.topbar-right{display:flex;gap:18px;align-items:center}
+@media(max-width:720px){.topbar-right span{display:none}}
+
+.hdr{position:sticky;top:0;z-index:60;background:var(--bg);background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);transition:box-shadow .2s}
+.hdr.is-stuck{box-shadow:var(--sh)}
+.hdr .wrap{display:flex;align-items:center;gap:16px;min-height:66px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;margin-right:auto}
+.logo svg{width:36px;height:36px;color:var(--brand);stroke-width:1.7}
+.logo b{display:block;font-family:Lora,serif;font-size:1.22rem;font-weight:600;line-height:1.1}
+.logo small{display:block;font-size:.76rem;color:var(--muted);letter-spacing:.02em}
+.nav{display:flex;gap:4px}
+.nav a{padding:8px 10px;border-radius:8px;font-size:.92rem;font-weight:600;color:var(--fg);text-decoration:none;white-space:nowrap}
+.nav a:hover{background:var(--surface-2);color:var(--brand)}
+.hdr-ctas{display:flex;gap:8px}
+.hdr-ctas .btn{white-space:nowrap}
+@media(max-width:1200px){.nav{display:none}}
+@media(max-width:600px){.hdr .wrap{min-height:58px}.logo svg{width:30px;height:30px}.logo b{font-size:1.05rem}.logo small{display:none}.hdr-ctas .btn span{display:none}.hdr-ctas .btn{padding:10px}}
+
+/* ---------- botões ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border-radius:var(--r-sm);
+  font-weight:700;font-size:1rem;text-decoration:none;cursor:pointer;border:2px solid transparent;
+  transition:background .2s,color .2s,border-color .2s,box-shadow .2s,transform .2s;min-height:48px;line-height:1.2}
+.btn:hover{transform:translateY(-1px)}
+.btn--urgent{background:var(--urgent-solid);color:#fff;box-shadow:var(--sh)}
+.btn--urgent:hover{background:#611524;color:#fff}
+/* botão de emergência — o elemento mais visível da página */
+.btn--emerg{position:relative;background:#8A1F35;background:linear-gradient(135deg,#9C2440,#6E1729);color:#fff;
+  padding:17px 26px;font-size:1.07rem;min-height:58px;border-radius:13px;letter-spacing:.005em;
+  box-shadow:0 10px 26px rgba(122,28,47,.34),inset 0 1px 0 rgba(255,255,255,.16)}
+.btn--emerg:hover{background:linear-gradient(135deg,#AD2848,#7A1C2F);color:#fff;
+  box-shadow:0 14px 32px rgba(122,28,47,.44),inset 0 1px 0 rgba(255,255,255,.2)}
+.btn--emerg .ico{width:22px;height:22px}
+.btn--emerg .btn-dot{width:9px;height:9px;border-radius:50%;background:#FF9FB0;flex:none;animation:pulse 2.4s infinite}
+.btn--pulse::after{content:"";position:absolute;inset:-5px;border-radius:18px;border:2px solid var(--urgent);
+  opacity:0;animation:ring 2.8s cubic-bezier(.2,.7,.4,1) infinite;pointer-events:none}
+@keyframes ring{0%{transform:scale(.97);opacity:.55}75%{transform:scale(1.07);opacity:0}100%{opacity:0}}
+@media(max-width:600px){.btn--emerg{width:100%;padding:17px 18px;font-size:1.02rem}}
+.btn--wa{background:var(--wa);color:#fff;box-shadow:var(--sh)}
+.btn--wa:hover{background:#178c47;color:#fff}
+.btn--brand{background:var(--brand-solid);color:#fff}
+.btn--brand:hover{background:var(--brand-deep);color:#fff}
+.btn--ghost{background:transparent;color:var(--brand);border-color:var(--brand)}
+.btn--ghost:hover{background:var(--brand-soft)}
+/* .btn--light e .btn--outline-light existiam para painéis escuros.
+   O site não tem mais nenhum fundo escuro, então elas saíram. */
+.btn--sm{padding:10px 14px;font-size:.92rem;min-height:42px}
+.btn--block{width:100%}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px}
+
+/* ---------- seções ---------- */
+.section{padding:clamp(52px,7vw,96px) 0;scroll-margin-top:72px}
+/* .section--alt e .section--brand existiam para alternar cor de fundo.
+   No V4 elas não mudam mais o fundo — o creme é o mesmo do topo ao rodapé. */
+.section--alt,.section--brand{background:transparent;color:var(--fg)}
+.section--brand h2,.section--brand h3{color:var(--fg)}
+.section--brand p{color:var(--muted)}
+.head{max-width:760px;margin-bottom:clamp(28px,4vw,46px)}
+.head--center{margin-inline:auto;text-align:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--brand);margin-bottom:12px}
+.section--brand .eyebrow{color:var(--brand)}
+.head p{color:var(--muted);font-size:1.08rem;margin-top:14px}
+.section--brand .head p{color:var(--muted)}
+
+/* ---------- hero ---------- */
+.hero{padding:clamp(34px,5vw,64px) 0 clamp(40px,5vw,72px);background:var(--bg)}
+.hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:clamp(28px,4vw,56px);align-items:center}
+@media(max-width:920px){.hero-grid{grid-template-columns:1fr;gap:32px}}
+.badge{display:inline-flex;align-items:center;gap:9px;background:var(--brand-soft);color:var(--brand);
+  border:1px solid var(--brand);border-color:color-mix(in srgb,var(--brand) 28%,transparent);border-radius:999px;
+  padding:7px 15px;font-size:.84rem;font-weight:700;margin-bottom:18px}
+.hero h1{margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--brand);display:block}
+.lead{font-size:clamp(1.05rem,1rem + .35vw,1.22rem);color:var(--muted);max-width:56ch}
+.proof{display:flex;align-items:center;gap:10px;margin:20px 0 24px;font-weight:600;font-size:.96rem;color:var(--fg)}
+.proof .ico{color:var(--urgent);width:18px;height:18px}
+.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:26px;max-width:520px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:14px 12px;text-align:center;box-shadow:var(--sh-sm)}
+.stat b{display:block;font-family:Lora,serif;font-size:1.5rem;color:var(--brand);line-height:1}
+.stat span{display:block;font-size:.78rem;color:var(--muted);margin-top:6px;line-height:1.35}
+@media(max-width:480px){.hero-stats{max-width:none}.stat b{font-size:1.25rem}}
+
+/* quadro de espécies */
+.board{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px;box-shadow:var(--sh-lg)}
+.board-title{display:flex;align-items:center;gap:9px;font-weight:700;font-size:.92rem;color:var(--brand);margin-bottom:16px}
+.board-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.board-item{display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center;padding:14px 6px;
+  border:1px solid var(--border);border-radius:var(--r-sm);background:var(--surface);
+  font-size:.8rem;font-weight:600;color:var(--fg);text-decoration:none;transition:border-color .2s,background .2s,transform .2s}
+.board-item:hover{border-color:var(--brand);background:var(--brand-soft);transform:translateY(-2px)}
+.board-foot{margin-top:16px;font-size:.85rem;color:var(--muted);line-height:1.5}
+@media(max-width:380px){.board-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- triagem ---------- */
+.triage{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:920px){.triage{grid-template-columns:1fr}}
+.door{background:var(--surface);border:1px solid var(--border);border-top:4px solid var(--brand);
+  border-radius:var(--r);padding:26px 22px 24px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--sh-sm)}
+.door--urgent{border-top-color:var(--urgent);background:var(--urgent-soft)}
+.door-ico{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;background:var(--brand-soft);color:var(--brand)}
+.door--urgent .door-ico{background:var(--urgent-soft);background:color-mix(in srgb,var(--urgent) 16%,transparent);color:var(--urgent)}
+.door p{color:var(--muted);font-size:.97rem}
+.door .btn-row{margin-top:auto;padding-top:8px;flex-direction:column;gap:8px}
+
+/* ---------- serviços ---------- */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:920px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.cards{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:22px;box-shadow:var(--sh-sm);
+  transition:box-shadow .2s,transform .2s,border-color .2s;display:flex;flex-direction:column;gap:10px}
+.card:hover{box-shadow:var(--sh);transform:translateY(-2px);border-color:color-mix(in srgb,var(--brand) 35%,var(--border))}
+.card-ico{width:42px;height:42px;display:grid;place-items:center;border-radius:11px;background:var(--brand-soft);color:var(--brand)}
+.card p{color:var(--muted);font-size:.96rem}
+.tag{align-self:flex-start;font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--urgent);background:var(--urgent-soft);border-radius:999px;padding:4px 10px}
+.note{margin-top:22px;background:var(--surface);border:1px dashed var(--border);border-radius:var(--r);
+  padding:18px 20px;color:var(--muted);font-size:.96rem;display:flex;gap:12px;align-items:flex-start}
+.note .ico{color:var(--brand);margin-top:2px}
+.note strong{color:var(--fg)}
+
+/* ---------- comparativo ---------- */
+.table-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:.97rem}
+thead th{background:var(--surface-2);text-align:left;padding:16px 18px;font-weight:700;font-size:.88rem;
+  letter-spacing:.02em;border-bottom:2px solid var(--border);vertical-align:bottom}
+thead th:nth-child(2),thead th:nth-child(3){text-align:center;width:22%}
+thead th:nth-child(3){background:var(--brand-soft);color:var(--brand)}
+tbody td{padding:15px 18px;border-bottom:1px solid var(--border);vertical-align:middle}
+tbody td:nth-child(2),tbody td:nth-child(3){text-align:center}
+tbody td:nth-child(3){background:var(--brand-soft);background:color-mix(in srgb,var(--brand-soft) 55%,transparent)}
+tbody tr:last-child td{border-bottom:0}
+.yes,.no{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%}
+.yes{background:var(--brand-soft);color:var(--brand)}
+.no{background:var(--surface-2);color:#9B9B93}
+.yes svg,.no svg{width:17px;height:17px;stroke-width:2.6}
+.table-foot{margin-top:14px;font-size:.84rem;color:var(--muted);line-height:1.5}
+.table-cta{margin-top:26px;text-align:center}
+@media(max-width:700px){
+  thead th{padding:12px 10px;font-size:.78rem}
+  tbody td{padding:12px 10px;font-size:.9rem}
+  thead th:nth-child(2),thead th:nth-child(3){width:70px}
+}
+
+/* ---------- exóticos ---------- */
+.exo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:920px){.exo-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.exo-grid{grid-template-columns:1fr}}
+.exo{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:22px;box-shadow:var(--sh-sm);
+  transition:box-shadow .2s,transform .2s}
+.exo:hover{box-shadow:var(--sh);transform:translateY(-2px)}
+.exo .art{width:46px;height:46px;stroke-width:1.5;color:var(--brand);margin-bottom:12px}
+.exo h3{font-size:1.08rem;margin-bottom:8px}
+.exo p{font-size:.93rem;color:var(--muted)}
+.exo-foot{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-top:26px}
+@media(max-width:820px){.exo-foot{grid-template-columns:1fr}}
+.panel{background:var(--surface);border:1px solid var(--border);border-left:5px solid var(--brand);
+  border-radius:18px;padding:26px;color:var(--fg);box-shadow:var(--sh)}
+.panel h3,.section--brand .panel h3{color:var(--fg);margin-bottom:10px}
+.panel p,.section--brand .panel p{font-size:.96rem;color:var(--muted)}
+.panel strong{color:var(--fg)}
+.panel .btn{margin-top:16px}
+.panel--warn{border-left-color:var(--urgent);background:var(--urgent-soft)}
+.panel--warn h3{color:var(--urgent)}
+.panel ul{margin:12px 0 0;padding-left:20px;color:var(--muted);font-size:.94rem}
+.panel ul::marker,.panel li::marker{color:var(--brand)}
+.panel li{margin-bottom:6px}
+
+/* ---------- equipe ---------- */
+.team{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(max-width:820px){.team{grid-template-columns:1fr}}
+.vet{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:26px;box-shadow:var(--sh-sm);display:flex;flex-direction:column;gap:12px}
+.vet-top{display:flex;gap:16px;align-items:center}
+.vet-av{width:66px;height:66px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--brand-soft);color:var(--brand)}
+.vet-av .art{width:40px;height:40px}
+.vet .tag{background:var(--brand-soft);color:var(--brand)}
+.vet p{color:var(--muted);font-size:.96rem}
+.vet ul{margin:0;padding-left:20px;color:var(--muted);font-size:.94rem}
+.vet li{margin-bottom:5px}
+.pend{display:inline-block;font-size:.78rem;font-weight:700;color:var(--urgent);
+  border:1px dashed var(--urgent);border-radius:6px;padding:3px 9px}
+
+/* ---------- depoimentos ---------- */
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:920px){.quotes{grid-template-columns:1fr}}
+.quote{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--brand);
+  border-radius:var(--r);padding:24px;margin:0;box-shadow:var(--sh-sm)}
+.quote blockquote{margin:12px 0 14px;font-family:Lora,serif;font-size:1.1rem;line-height:1.5}
+.quote figcaption{font-size:.84rem;color:var(--muted)}
+.quote .tag{background:var(--brand-soft);color:var(--brand)}
+
+/* ---------- prático ---------- */
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:920px){.facts{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.facts{grid-template-columns:1fr}}
+.fact{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:20px;display:flex;gap:14px;align-items:flex-start}
+.fact .ico{color:var(--brand);margin-top:3px}
+.fact b{display:block;margin-bottom:4px}
+.fact span{color:var(--muted);font-size:.94rem}
+
+/* ---------- faq ---------- */
+.faq{max-width:840px;margin-inline:auto;display:flex;flex-direction:column;gap:10px}
+.q{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+.q-btn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;
+  background:none;border:0;padding:20px 22px;font:inherit;font-weight:600;font-size:1.02rem;color:var(--fg);cursor:pointer;min-height:56px}
+.q-btn:hover{color:var(--brand)}
+.q-btn .ico{color:var(--brand);transition:transform .25s}
+.q-btn[aria-expanded="true"] .ico{transform:rotate(180deg)}
+.q-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s ease}
+.q-btn[aria-expanded="true"]+.q-body{grid-template-rows:1fr}
+.q-body>div{overflow:hidden}
+.q-body p{padding:0 22px 20px;color:var(--muted);font-size:.98rem}
+.q-body p+p{padding-top:0}
+
+/* ---------- ficha de agendamento ---------- */
+.agenda{display:grid;grid-template-columns:.85fr 1.15fr;gap:24px;align-items:start}
+@media(max-width:920px){.agenda{grid-template-columns:1fr}}
+.agenda-side{display:flex;flex-direction:column;gap:16px}
+.steps{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:24px;box-shadow:var(--sh-sm)}
+.steps h3{margin-bottom:14px}
+.steps-list{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:10px;color:var(--muted);font-size:.96rem}
+.steps-list b{color:var(--fg)}
+.steps-list::marker{color:var(--brand)}
+.steps-foot{margin-top:16px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.88rem}
+.alerta{background:var(--urgent-soft);border:1px solid color-mix(in srgb,var(--urgent) 30%,transparent);
+  border-left:4px solid var(--urgent);border-radius:var(--r);padding:20px;display:flex;gap:14px}
+.alerta .ico{color:var(--urgent);flex:none;margin-top:2px}
+.alerta b{display:block;color:var(--urgent);margin-bottom:4px}
+.alerta span{display:block;color:var(--fg);font-size:.94rem}
+.alerta .btn{margin-top:14px}
+
+.form-card{background:var(--surface);border:1px solid var(--border);border-radius:18px;
+  padding:clamp(22px,3vw,32px);box-shadow:var(--sh)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:560px){.form-row{grid-template-columns:1fr}}
+.form-group{display:flex;flex-direction:column;gap:7px;margin-bottom:16px}
+.form-group label{font-size:.9rem;font-weight:600;color:var(--fg)}
+.form-group label small{font-weight:400;color:var(--muted)}
+.req{color:var(--urgent)}
+.form-group input,.form-group select,.form-group textarea{
+  font:inherit;font-size:1rem;color:var(--fg);background-color:var(--bg);
+  border:1.5px solid var(--border);border-radius:var(--r-sm);padding:13px 14px;min-height:50px;
+  transition:border-color .2s,box-shadow .2s,background .2s;width:100%}
+.form-group textarea{min-height:110px;resize:vertical;line-height:1.55}
+.form-group select{cursor:pointer;
+  -webkit-appearance:none;-moz-appearance:none;appearance:none;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2355554D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;background-size:16px;padding-right:44px}
+.form-group select::-ms-expand{display:none}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+  outline:none;border-color:var(--brand);background:var(--surface);
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--brand) 18%,transparent)}
+.form-group input::placeholder,.form-group textarea::placeholder{color:var(--muted);opacity:.75}
+.form-group.erro input,.form-group.erro select,.form-group.erro textarea{border-color:var(--urgent);background:var(--urgent-soft)}
+.erro-msg{display:none;font-size:.85rem;font-weight:600;color:var(--urgent)}
+.form-group.erro .erro-msg{display:block}
+.form-card .btn{margin-top:4px}
+.form-foot{margin-top:14px;color:var(--muted);font-size:.86rem;line-height:1.5;text-align:center}
+.form-ok{display:none;margin-top:16px;background:var(--brand-soft);border:1px solid var(--brand);
+  border-radius:var(--r-sm);padding:14px 16px;color:var(--brand);font-size:.94rem;font-weight:600}
+.form-ok.on{display:block}
+
+
+/* ---------- espaço de foto (some sozinho quando entra a imagem real) ---------- */
+.foto{position:relative;width:100%;aspect-ratio:1/1;border-radius:14px;overflow:hidden;
+  background:var(--brand-soft);border:1px solid var(--border);display:grid;place-items:center}
+.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.foto-vazia{display:flex;flex-direction:column;align-items:center;gap:8px;padding:14px;text-align:center}
+.foto-vazia .ico{width:24px;height:24px;color:var(--brand);opacity:.65}
+.foto-vazia span{font-size:.72rem;font-weight:600;color:var(--muted);line-height:1.35;letter-spacing:.01em}
+
+/* ---------- galeria de pacientes ---------- */
+.galeria{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:920px){.galeria{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.galeria{grid-template-columns:repeat(2,1fr);gap:12px}}
+.pet{margin:0;background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:12px;box-shadow:var(--sh-sm);transition:box-shadow .2s,transform .2s}
+.pet:hover{box-shadow:var(--sh);transform:translateY(-2px)}
+.pet figcaption{padding:12px 4px 4px}
+.pet figcaption b{display:block;font-size:.97rem;line-height:1.3}
+.pet figcaption span{display:block;font-size:.83rem;color:var(--muted);margin-top:3px}
+.galeria-foot{margin-top:20px;text-align:center;color:var(--muted);font-size:.9rem}
+
+/* ---------- equipe ---------- */
+.grupo-titulo{display:flex;align-items:center;gap:14px;margin:0 0 20px}
+.grupo-titulo h3{font-size:1.05rem;white-space:nowrap}
+.grupo-titulo::after{content:"";flex:1;height:1px;background:var(--border)}
+.grupo-titulo+.team,.grupo-titulo+.team-3{margin-bottom:38px}
+.team-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:820px){.team-3{grid-template-columns:1fr}}
+.vet-foto{margin-bottom:16px}
+.vet-foto .foto{aspect-ratio:4/3}
+.vet--vaga{border-style:dashed}
+.vet--vaga .foto{background:var(--surface-2)}
+
+/* ---------- nota do Google ---------- */
+.nota{display:flex;align-items:center;gap:20px;background:var(--surface);border:1px solid var(--border);
+  border-radius:18px;padding:22px 26px;box-shadow:var(--sh-sm);max-width:620px;margin:0 auto 28px}
+@media(max-width:520px){.nota{flex-direction:column;text-align:center;gap:12px;padding:22px 18px}}
+.nota-num{font-family:Lora,serif;font-size:2.9rem;line-height:1;color:var(--brand);font-weight:600}
+.nota p{font-size:.88rem;color:var(--muted);margin-top:7px;line-height:1.5}
+.nota a{font-weight:600;font-size:.9rem;display:inline-block;margin-top:6px}
+.stars{position:relative;display:inline-block;line-height:0}
+.stars-bg,.stars-fg{display:flex;gap:3px}
+.stars-fg{position:absolute;top:0;left:0;overflow:hidden}
+.stars svg{width:19px;height:19px;flex:none;color:var(--gold)}
+.stars-bg svg{opacity:.28}
+.stars-fg svg{fill:var(--gold)}
+@media(max-width:520px){.nota .stars{margin-inline:auto}}
+
+/* ---------- depoimentos ---------- */
+.quote-ico{width:26px;height:26px;color:var(--brand);opacity:.55;margin-bottom:6px}
+.quote figcaption{display:flex;align-items:center;gap:12px;padding-top:14px;border-top:1px solid var(--border)}
+.quote-av{width:40px;height:40px;flex:none;border-radius:50%;background:var(--brand-soft);
+  display:grid;place-items:center;color:var(--brand)}
+.quote-av .ico{width:21px;height:21px}
+.quote figcaption b{display:block;font-size:.93rem;line-height:1.3}
+.quote figcaption small{display:block;font-size:.8rem;color:var(--muted);margin-top:2px}
+
+/* ---------- localização ---------- */
+.local{display:grid;grid-template-columns:1fr 1.1fr;gap:24px;align-items:start}
+@media(max-width:920px){.local{grid-template-columns:1fr}}
+.info{display:flex;flex-direction:column;gap:12px}
+.info-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:20px;display:flex;gap:14px}
+.info-card .ico{color:var(--brand);margin-top:3px;flex:none}
+.info-card b{display:block;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.info-card strong{font-size:1.06rem;display:block}
+.info-card span{color:var(--muted);font-size:.94rem}
+.info-card a{font-weight:600;text-decoration:none}
+.info-card a:hover{text-decoration:underline}
+.map{border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);background:var(--surface-2)}
+.map iframe{display:block;width:100%;height:380px;border:0;filter:saturate(.9)}
+
+/* ---------- cta final ---------- */
+.cta-final{padding:0 0 clamp(40px,5vw,72px)}
+.cta-box{background:var(--surface);border:1px solid var(--border);border-top:5px solid var(--brand);
+  color:var(--fg);border-radius:22px;padding:clamp(38px,5vw,66px) clamp(20px,4vw,48px);
+  text-align:center;box-shadow:var(--sh-lg)}
+.cta-final h2{color:var(--fg);max-width:20ch;margin-inline:auto}
+.cta-final p{color:var(--muted);margin:16px auto 26px;max-width:58ch}
+.cta-final .btn-row{justify-content:center}
+
+/* ---------- rodapé ---------- */
+.foot{background:transparent;border-top:1px solid var(--border);padding:48px 0 0}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+@media(max-width:820px){.foot-grid{grid-template-columns:1fr;gap:26px}}
+.foot h4{font-family:"Source Sans 3",sans-serif;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.foot a{color:var(--fg);text-decoration:none;font-size:.95rem}
+.foot a:hover{color:var(--brand);text-decoration:underline}
+.foot p{color:var(--muted);font-size:.94rem}
+.social{display:flex;gap:10px;margin-top:14px}
+.social a{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--border);border-radius:10px;color:var(--brand)}
+.social a:hover{background:var(--brand-soft)}
+.legal{margin-top:36px;border-top:1px solid var(--border);padding:20px 0 calc(96px + env(safe-area-inset-bottom));font-size:.85rem;color:var(--muted);line-height:1.6}
+@media(min-width:861px){.legal{padding-bottom:28px}}
+
+/* ---------- barra fixa mobile + float ---------- */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:70;display:none;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+  background:var(--bg);background:color-mix(in srgb,var(--bg) 94%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid var(--border)}
+.bar .btn{flex:1;padding:12px 8px;font-size:.92rem}
+.bar .btn--ghost{flex:0 0 52px}
+@media(max-width:860px){.bar{display:flex}}
+.float{position:fixed;right:20px;bottom:24px;z-index:65;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;
+  display:grid;place-items:center;box-shadow:var(--sh-lg);transition:transform .2s}
+.float:hover{transform:scale(1.06)}
+.float svg{width:30px;height:30px}
+@media(max-width:860px){.float{display:none}}
+
+/* ---------- reveal ---------- */
+.js .reveal{opacity:0;transform:translateY(14px)}
+.js .reveal.in{opacity:1;transform:none;transition:opacity .5s ease,transform .5s ease}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .js .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- ===================== SPRITE (ícones + ilustrações autorais) ===================== -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+<!-- Ícones: Lucide (lucide.dev) — licença ISC, © Lucide Contributors.
+     Serpente, lagarto e dente desenhados para este projeto, no mesmo grid 24/traço 2. -->
+<symbol id="i-quote" viewBox="0 0 24 24"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/> <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></symbol><symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></symbol><symbol id="i-camera" viewBox="0 0 24 24"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/> <circle cx="12" cy="13" r="3"/></symbol><symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/> <path d="M20 21a8 8 0 0 0-16 0"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/> <circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/> <path d="M12 6v6l4 2"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="i-route" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/> <rect x="2" y="4" width="20" height="16" rx="2"/></symbol>
+<symbol id="i-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/> <path d="M12 9v4"/> <path d="M12 17h.01"/></symbol>
+<symbol id="i-siren" viewBox="0 0 24 24"><path d="M7 18v-6a5 5 0 1 1 10 0v6"/> <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z"/> <path d="M21 12h1"/> <path d="M18.5 4.5 18 5"/> <path d="M2 12h1"/> <path d="M12 2v1"/> <path d="m4.929 4.929.707.707"/> <path d="M12 12v6"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20a10 10 0 0010-10 25.9 25.9 0 00-1.04-7.281 1 1 0 00-1.755-.325C15.833 5.5 13 5.5 9.8 6.1A7 7 0 0011 20"/> <path d="M2 21a5 5 0 012.911-4.544C7.613 15.212 8.351 15.24 11 13"/></symbol>
+<symbol id="i-stet" viewBox="0 0 24 24"><path d="M11 2v2"/> <path d="M5 2v2"/> <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"/> <path d="M8 15a6 6 0 0 0 12 0v-3"/> <circle cx="20" cy="10" r="2"/></symbol>
+<symbol id="i-scalpel" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/> <path d="M8.12 8.12 12 12"/> <path d="M20 4 8.12 15.88"/> <circle cx="6" cy="18" r="3"/> <path d="M14.8 14.8 20 20"/></symbol>
+<symbol id="i-bed" viewBox="0 0 24 24"><path d="M2 4v16"/> <path d="M2 8h18a2 2 0 0 1 2 2v10"/> <path d="M2 17h20"/> <path d="M6 8v9"/></symbol>
+<symbol id="i-flask" viewBox="0 0 24 24"><path d="M6 18h8"/> <path d="M3 22h18"/> <path d="M14 22a7 7 0 1 0 0-14h-1"/> <path d="M9 14h2"/> <path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/> <path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/> <path d="m6 6 12 12"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" rx="2"/> <line x1="2" x2="22" y1="10" y2="10"/> <path d="M6 14h2"/></symbol>
+<symbol id="i-wheel" viewBox="0 0 24 24"><circle cx="16" cy="4" r="1"/> <path d="m18 19 1-7-6 1"/> <path d="m5 8 3-3 5.5 3-2.36 3.5"/> <path d="M4.24 14.5a5 5 0 0 0 6.88 6"/> <path d="M13.76 17.5a5 5 0 0 0-6.88-6"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/> <path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/> <path d="M22 10v6"/> <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/> <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></symbol>
+<symbol id="i-syringe" viewBox="0 0 24 24"><path d="m18 2 4 4"/> <path d="m17 7 3-3"/> <path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5"/> <path d="m9 11 4 4"/> <path d="m5 19-3 3"/> <path d="m14 4 6 6"/></symbol>
+<symbol id="i-agenda" viewBox="0 0 24 24"><path d="M8 2v3"/> <path d="M16 2v3"/> <rect x="3" y="3" width="18" height="18" rx="2"/> <path d="M3 9h18"/> <path d="m9 15 2 2 4-4"/></symbol>
+<symbol id="a-cao" viewBox="0 0 24 24"><path d="M11.25 16.25h1.5L12 17z"/> <path d="M16 14v.5"/> <path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309"/> <path d="M8 14v.5"/> <path d="M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/></symbol>
+<symbol id="a-gato" viewBox="0 0 24 24"><path d="M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z"/> <path d="M8 14v.5"/> <path d="M16 14v.5"/> <path d="M11.25 16.25h1.5L12 17l-.75-.75Z"/></symbol>
+<symbol id="a-ave" viewBox="0 0 24 24"><path d="M16 7h.01"/> <path d="M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"/> <path d="m20 7 2 .5-2 .5"/> <path d="M10 18v3"/> <path d="M14 17.75V21"/> <path d="M7 18a6 6 0 0 0 3.84-10.61"/></symbol>
+<symbol id="a-quelonio" viewBox="0 0 24 24"><path d="m12 10 2 4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3a8 8 0 1 0-16 0v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3l2-4h4Z"/> <path d="M4.82 7.9 8 10"/> <path d="M15.18 7.9 12 10"/> <path d="M16.93 10H20a2 2 0 0 1 0 4H2"/></symbol>
+<symbol id="a-coelho" viewBox="0 0 24 24"><path d="M13 16a3 3 0 0 1 2.24 5"/> <path d="M18 12h.01"/> <path d="M18 21h-8a4 4 0 0 1-4-4 7 7 0 0 1 7-7h.2L9.6 6.4a1 1 0 1 1 2.8-2.8L15.8 7h.2c3.3 0 6 2.7 6 6v1a2 2 0 0 1-2 2h-1a3 3 0 0 0-3 3"/> <path d="M20 8.54V4a2 2 0 1 0-4 0v3"/> <path d="M7.612 12.524a3 3 0 1 0-1.6 4.3"/></symbol>
+<symbol id="a-peixe" viewBox="0 0 24 24"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z"/> <path d="M18 12v.5"/> <path d="M16 17.93a9.77 9.77 0 0 1 0-11.86"/> <path d="M7 10.67C7 8 5.58 5.97 2.73 5.5c-1 1.5-1 5 .23 6.5-1.24 1.5-1.24 5-.23 6.5C5.58 18.03 7 16 7 13.33"/> <path d="M10.46 7.26C10.2 5.88 9.17 4.24 8 3h5.8a2 2 0 0 1 1.98 1.67l.23 1.4"/> <path d="m16.01 17.93-.23 1.4A2 2 0 0 1 13.8 21H9.5a5.96 5.96 0 0 0 1.49-3.98"/></symbol>
+<symbol id="a-silvestre" viewBox="0 0 24 24"><path d="M14.086 18.412A2 2 0 0112.67 19H5v-7.672a2 2 0 01.586-1.414L11.75 3.75a6 6 0 118.49 8.49z"/> <path d="M16 8 2 22"/> <path d="M17.488 15H9"/></symbol>
+<symbol id="a-reptil" viewBox="0 0 24 24"><path d="M7 21h7a4 4 0 0 0 0-8H9.5a3.5 3.5 0 0 1 0-7H11"/><circle cx="13.6" cy="6" r="2.7"/><path d="M14.6 5.2h.01"/><path d="m16.3 6.7 3 1"/><path d="m19.3 7.7-1.5-.9M19.3 7.7l-1.1 1.3"/></symbol>
+<symbol id="a-lagarto" viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3c0 1.7 1 2.4 1 4s-1 2.3-1 4a3 3 0 0 0 6 0c0-1.7-1-2.4-1-4s1-2.3 1-4a3 3 0 0 0-3-3Z"/><path d="M12 17v2a3 3 0 0 0 3 3c1.4 0 2.2-.9 2.2-2"/><path d="M10.6 5.6h.01M13.4 5.6h.01"/><path d="m9.6 7.6-4-2.2-2 .5"/><path d="m14.4 7.6 4-2.2 2 .5"/><path d="m9.6 14.4-4 2.2-2-.5"/><path d="m14.4 14.4 4 2.2 2-.5"/></symbol>
+<symbol id="i-tooth" viewBox="0 0 24 24"><path d="M12 3C9.6 3 8.4 4.6 6.6 4.6 5 4.6 4 6 4 8.2c0 2.8 1.1 4.3 1.7 6.9.5 2.3.6 4.7 2.2 4.7 1.7 0 1.6-4.3 2.7-4.3h2.8c1.1 0 1 4.3 2.7 4.3 1.6 0 1.7-2.4 2.2-4.7.6-2.6 1.7-4.1 1.7-6.9C20 6 19 4.6 17.4 4.6 15.6 4.6 14.4 3 12 3Z"/></symbol>
+<symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><path d="M17.3 6.8h.01"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15s-.77.96-.94 1.16c-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.4-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.44-.53.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42-.08-.12-.28-.2-.57-.34M12.05 21.78h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.89-9.89 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.43 9.89-9.88 9.89m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45c6.55 0 11.89-5.34 11.89-11.89c0-3.18-1.24-6.17-3.48-8.41"/></symbol>
+<symbol id="i-face" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M14.6 21v-7.6h2.6l.5-3.3h-3.1V8c0-.9.3-1.6 1.7-1.6h1.5V3.4A22 22 0 0 0 15.4 3c-2.4 0-4 1.5-4 4.2v2.9H8.8v3.3h2.6V21z"/></symbol>
+</svg>
+
+<!-- ===================== TOPO ===================== -->
+<div class="topbar">
+  <div class="wrap">
+    <span class="status"><span class="dot"></span> Plantão 24 horas — aberto agora</span>
+    <div class="topbar-right">
+      <span>Av. Juscelino Kubitschek, 2525 — Ipiranga, Londrina/PR</span>
+      <a href="tel:+554330370755">(43) 3037-0755</a>
+    </div>
+  </div>
+</div>
+
+<header class="hdr" id="topo">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="BichoZen — Clínica Veterinária 24h, Londrina">
+      <svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true"><use href="#a-gato"/></svg>
+      <span><b>Bicho Zen</b><small>Clínica Veterinária 24h · Londrina</small></span>
+    </a>
+    <nav class="nav" aria-label="Seções da página">
+      <a href="#emergencia">Emergência</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#exoticos">Exóticos</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#pacientes">Pacientes</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#local">Como chegar</a>
+      <a href="#agendar">Agendar</a>
+    </nav>
+    <div class="hdr-ctas">
+      <a class="btn btn--ghost btn--sm" href="tel:+554330370755"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span>(43) 3037-0755</span></a>
+      <a class="btn btn--wa btn--sm" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="badge"><svg class="ico" style="width:16px;height:16px" aria-hidden="true"><use href="#i-leaf"/></svg> Aves, répteis, coelhos e silvestres — atendemos aqui</span>
+      <h1>Veterinário 24 horas em Londrina <em>para cães, gatos e os bichos que quase ninguém atende</em></h1>
+      <p class="lead">Plantão clínico-cirúrgico presencial, todos os dias, a qualquer hora. Desde 2016 cuidando de cada vida que passa por aqui — inclusive de aves, répteis, quelônios, coelhos, roedores e peixes.</p>
+      <p class="proof"><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg> 10 anos em Londrina · sócios-fundadores que continuam atendendo · curso de pets exóticos na 5ª edição</p>
+      <div class="btn-row">
+        <a class="btn btn--emerg btn--pulse" href="tel:+554330370755"><span class="btn-dot"></span><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Emergência — ligar agora</a>
+        <a class="btn btn--ghost" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Agendar consulta</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>24h</b><span>Todos os dias, feriados incluídos</span></div>
+        <div class="stat"><b>9</b><span>Grupos de espécies atendidos</span></div>
+        <div class="stat"><b>2016</b><span>Cuidando com propósito desde</span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="board">
+        <p class="board-title"><svg class="ico" style="width:17px;height:17px" aria-hidden="true"><use href="#i-check"/></svg> Atendemos</p>
+        <div class="board-grid">
+          <a class="board-item" href="#servicos"><svg class="art" aria-hidden="true"><use href="#a-cao"/></svg><span>Cães</span></a>
+          <a class="board-item" href="#servicos"><svg class="art" aria-hidden="true"><use href="#a-gato"/></svg><span>Gatos</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-ave"/></svg><span>Aves</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-reptil"/></svg><span>Serpentes</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-lagarto"/></svg><span>Lagartos</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-quelonio"/></svg><span>Quelônios</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-coelho"/></svg><span>Coelhos e roedores</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-peixe"/></svg><span>Peixes</span></a>
+          <a class="board-item" href="#exoticos"><svg class="art" aria-hidden="true"><use href="#a-silvestre"/></svg><span>Silvestres</span></a>
+        </div>
+        <p class="board-foot">Cada espécie desta lista tem atendimento documentado na clínica. Não encontrou a sua? <a href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site.%20Tenho%20um%20pet%20ex%C3%B3tico%20e%20gostaria%20de%20saber%20sobre%20atendimento." target="_blank" rel="noopener">consulte a clínica antes de se deslocar</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TRIAGEM ===================== -->
+<section class="section section--alt" id="emergencia" aria-labelledby="t-triagem">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Por onde começar</p>
+      <h2 id="t-triagem">O que está acontecendo com o seu bicho?</h2>
+      <p>Três situações muito diferentes chegam até nós todos os dias. Escolha a sua — o caminho mais curto está logo abaixo.</p>
+    </div>
+    <div class="triage">
+      <div class="door door--urgent reveal">
+        <span class="door-ico"><svg class="ico" style="width:24px;height:24px" aria-hidden="true"><use href="#i-siren"/></svg></span>
+        <h3>É uma emergência agora</h3>
+        <p>Dificuldade para respirar, intoxicação, trauma, sangramento, convulsão, dor aguda, prostração súbita. Não espere amanhecer e não preencha formulário: ligue. A equipe já começa a se preparar enquanto você está no trânsito.</p>
+        <div class="btn-row">
+          <a class="btn btn--emerg btn--pulse btn--block" href="tel:+554330370755"><span class="btn-dot"></span><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Ligar (43) 3037-0755</a>
+          <a class="btn btn--ghost btn--block btn--sm" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site.%20%C3%89%20uma%20emerg%C3%AAncia%20%E2%80%94%20meu%20pet%20est%C3%A1%20" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> WhatsApp de emergência</a>
+        </div>
+      </div>
+      <div class="door reveal">
+        <span class="door-ico"><svg class="ico" style="width:24px;height:24px" aria-hidden="true"><use href="#i-leaf"/></svg></span>
+        <h3>Tenho um pet exótico ou silvestre</h3>
+        <p>Ave, réptil, quelônio, coelho, roedor, peixe. Se você já ouviu “aqui não atendemos esse tipo de animal”, é para cá que você vem — e no plantão, não só em horário comercial.</p>
+        <div class="btn-row">
+          <a class="btn btn--brand btn--block" href="#exoticos">Ver o atendimento de exóticos</a>
+          <a class="btn btn--ghost btn--block btn--sm" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site.%20Tenho%20um%20pet%20ex%C3%B3tico%20e%20gostaria%20de%20saber%20sobre%20atendimento." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Consultar atendimento para o meu animal</a>
+        </div>
+      </div>
+      <div class="door reveal">
+        <span class="door-ico"><svg class="ico" style="width:24px;height:24px" aria-hidden="true"><use href="#i-stet"/></svg></span>
+        <h3>Quero agendar para meu cão ou gato</h3>
+        <p>Consulta de rotina, check-up, vacina em dia, castração, odontologia ou acompanhamento de um caso crônico — inclusive medicina felina com a Dra. Luísa.</p>
+        <div class="btn-row">
+          <a class="btn btn--wa btn--block" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Agendar pelo WhatsApp</a>
+          <a class="btn btn--ghost btn--block btn--sm" href="#agendar">Preencher a ficha de agendamento</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVIÇOS ===================== -->
+<section class="section" id="servicos" aria-labelledby="t-serv">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">O que fazemos</p>
+      <h2 id="t-serv">Tudo isto acontece dentro do mesmo plantão</h2>
+      <p>Uma clínica só, aberta 24 horas, com a mesma equipe que já conhece o seu bicho — sem precisar remarcar para o dia seguinte.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-siren"/></svg></span>
+        <span class="tag">24 horas</span>
+        <h3>Emergência e plantão</h3>
+        <p>Plantão clínico-cirúrgico presencial todos os dias, a qualquer hora. É assim que a maioria dos tutores chega até nós.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-leaf"/></svg></span>
+        <span class="tag">24 horas</span>
+        <h3>Pets exóticos e silvestres</h3>
+        <p>Aves, répteis, quelônios, coelhos, roedores e peixes — conduzido pelo Dr. Rafael Saconatto, que ensina a área a outros veterinários.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#a-cao"/></svg></span>
+        <h3>Cuidado canino</h3>
+        <p>Clínica médica de cães, do filhote ao idoso: consulta, check-up, vacina em dia, castração e acompanhamento de casos crônicos.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#a-gato"/></svg></span>
+        <h3>Medicina felina</h3>
+        <p>Gatos com doença renal crônica, FELV, casos geriátricos e acompanhamento contínuo com a Dra. Luísa Padovani.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-stet"/></svg></span>
+        <h3>Consultas e preventiva</h3>
+        <p>Clínica médica de cães e gatos, check-up de rotina e vacinação — porque cuidar, antes de tudo, é prevenir.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-scalpel"/></svg></span>
+        <span class="tag">24 horas</span>
+        <h3>Cirurgia</h3>
+        <p>Cirurgias de cães, gatos e pets exóticos, incluindo castração — com o plantão como retaguarda em qualquer horário.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-bed"/></svg></span>
+        <span class="tag">24 horas</span>
+        <h3>Internação</h3>
+        <p>Internamento com acompanhamento durante as 24 horas, para cães, gatos e também para animais exóticos.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-flask"/></svg></span>
+        <h3>Exames e coleta</h3>
+        <p>Coleta e exames para apoiar o diagnóstico — inclusive em pacientes muito pequenos, como aves e roedores.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ico"><svg class="ico" style="width:22px;height:22px" aria-hidden="true"><use href="#i-tooth"/></svg></span>
+        <h3>Odontologia veterinária</h3>
+        <p>Profilaxia dentária e tratamento de doença periodontal. São coisas diferentes — e a gente explica a diferença antes de propor.</p>
+      </article>
+    </div>
+
+    <p class="note reveal"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+      <span><strong>Procurou um procedimento e não achou nesta lista?</strong> Consulte a recepção antes de sair de casa — assim você não se desloca à toa.
+      <a href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20BichoZen%20e%20gostaria%20de%20falar%20com%20a%20cl%C3%ADnica." target="_blank" rel="noopener">Mandar a dúvida no WhatsApp</a> ou ligar para (43) 3037-0755.</span></p>
+  </div>
+</section>
+
+<!-- ===================== COMPARATIVO ===================== -->
+<section class="section section--alt" id="comparativo" aria-labelledby="t-comp">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Por que a BichoZen</p>
+      <h2 id="t-comp">O que muda quando a clínica atende exóticos de verdade</h2>
+      <p>Para cão e gato, Londrina tem boas opções. A diferença aparece quando o seu bicho não é cão nem gato — ou quando ele piora às três da manhã.</p>
+    </div>
+
+    <div class="table-wrap reveal">
+      <table>
+        <caption class="sr">Comparativo entre uma clínica veterinária comum e a BichoZen</caption>
+        <thead>
+          <tr>
+            <th scope="col">O que você precisa</th>
+            <th scope="col">Clínica veterinária comum</th>
+            <th scope="col">BichoZen 24h</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Consulta, cirurgia e preventiva para cães e gatos</td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Atendimento a aves — calopsitas, papagaios, araras</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Atendimento a serpentes, lagartos, jabutis e tartarugas</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Atendimento a coelhos, hamsters e porquinhos-da-índia</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Atendimento a peixes — inclusive coleta de sangue e cirurgia</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Plantão presencial 24h, todos os dias, feriado incluído</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Internação de pet exótico com acompanhamento nas 24 horas</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Medicina felina como atuação dedicada, não como “também atendo gato”</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+          <tr>
+            <td>Veterinário que ensina medicina de exóticos a outros veterinários</td>
+            <td><span class="no" role="img" aria-label="Geralmente não"><svg aria-hidden="true"><use href="#i-x"/></svg></span></td>
+            <td><span class="yes" role="img" aria-label="Sim"><svg aria-hidden="true"><use href="#i-check"/></svg></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-foot reveal">Comparativo geral, sobre o perfil da clínica de bairro que atende cão e gato em horário comercial. Não se refere a nenhuma clínica específica de Londrina — a cidade tem, sim, outros serviços 24 horas, e isso é bom para os animais.</p>
+    <div class="table-cta reveal">
+      <a class="btn btn--wa" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site.%20Tenho%20um%20pet%20ex%C3%B3tico%20e%20gostaria%20de%20saber%20sobre%20atendimento." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Consultar o atendimento para o seu animal</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXÓTICOS ===================== -->
+<section class="section section--brand" id="exoticos" aria-labelledby="t-exo">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">A nossa especialização</p>
+      <h2 id="t-exo">Se você já ouviu “aqui não atendemos esse tipo de animal”</h2>
+      <p>É a frase que mais escutamos de quem chega pela primeira vez. Aqui, o pet exótico não é exceção: é rotina — e tem plantão.</p>
+    </div>
+
+    <div class="exo-grid">
+      <div class="exo reveal">
+        <svg class="art" aria-hidden="true"><use href="#a-ave"/></svg>
+        <h3>Aves</h3>
+        <p>Calopsitas, papagaios, araras e pássaros em geral. Ave doente esconde sintoma até não conseguir mais — por isso não adia.</p>
+      </div>
+      <div class="exo reveal">
+        <svg class="art" aria-hidden="true"><use href="#a-reptil"/></svg>
+        <h3>Répteis e quelônios</h3>
+        <p>Serpentes, lagartos, jabutis e tartarugas. Boa parte dos casos começa no manejo: temperatura, dieta e ambiente.</p>
+      </div>
+      <div class="exo reveal">
+        <svg class="art" aria-hidden="true"><use href="#a-coelho"/></svg>
+        <h3>Coelhos e roedores</h3>
+        <p>Coelhos, hamsters e porquinhos-da-índia. Coelho que para de comer é urgência — não espere até amanhã.</p>
+      </div>
+      <div class="exo reveal">
+        <svg class="art" aria-hidden="true"><use href="#a-peixe"/></svg>
+        <h3>Peixes e silvestres</h3>
+        <p>Sim, peixes — com exames e cirurgia documentados. E fauna nativa, com a orientação certa antes de você se deslocar.</p>
+      </div>
+    </div>
+
+    <div class="exo-foot">
+      <div class="panel reveal">
+        <h3>Quem conduz o atendimento</h3>
+        <p><strong>Dr. Rafael Saconatto</strong>, cofundador da clínica, é referência regional em medicina de animais exóticos e não convencionais. Ministra o <strong>Curso Teórico-Prático em Medicina de Pets Exóticos</strong>, já na 5ª edição, para veterinários e estudantes.</p>
+        <p style="margin-top:10px">É o tipo de diferença que aparece na consulta: quem ensina a área atende a sua calopsita, o seu jabuti e o seu coelho todos os dias.</p>
+        <div class="btn-row">
+          <a class="btn btn--wa" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20com%20o%20Dr.%20Rafael%20%28pets%20ex%C3%B3ticos%29." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Agendar com o Dr. Rafael</a>
+          <a class="btn btn--ghost" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20informa%C3%A7%C3%B5es%20sobre%20o%20Curso%20de%20Medicina%20de%20Pets%20Ex%C3%B3ticos." target="_blank" rel="noopener">Quero saber do curso</a>
+        </div>
+      </div>
+      <div class="panel panel--warn reveal">
+        <h3>Encontrou um animal silvestre ferido?</h3>
+        <p>Antes de trazer, faça só isto:</p>
+        <ul>
+          <li>Não alimente e não dê água na boca.</li>
+          <li>Não medique — nada de remédio humano.</li>
+          <li>Caixa de papelão fechada e furada, com um pano no fundo.</li>
+          <li>Lugar escuro, silencioso e sem manuseio.</li>
+        </ul>
+        <a class="btn btn--emerg btn--sm" href="tel:+554330370755" style="margin-top:16px"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Ligar antes de se deslocar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EQUIPE ===================== -->
+<section class="section" id="equipe" aria-labelledby="t-eq">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Quem vai atender</p>
+      <h2 id="t-eq">Em vez de dizer &ldquo;equipe altamente qualificada&rdquo;, preferimos apresentar as pessoas</h2>
+      <p>Os dois sócios fundaram a clínica em 2015 e continuam atendendo. Você pode agendar com um profissional específico.</p>
+    </div>
+
+    <div class="grupo-titulo reveal"><h3>Sócios-fundadores</h3></div>
+    <div class="team">
+      <article class="vet reveal">
+        <div class="vet-foto">
+          <div class="foto">
+              <!-- SLOT DE FOTO: Foto da Dra. Luísa Padovani. Para usar: troque a div .foto-vazia por <img src="assets/img/SEU-ARQUIVO.webp" alt="descrição real da foto" loading="lazy"> -->
+              <div class="foto-vazia"><svg class="ico" aria-hidden="true"><use href="#i-camera"/></svg><span>Foto da Dra. Luísa Padovani</span></div>
+            </div>
+        </div>
+        <h3>Dra. Luísa Padovani</h3>
+        <span class="tag">Medicina felina · cães e gatos</span>
+        <p>Cofundadora e sócia-administradora da BichoZen desde a abertura. Mais de 10 anos dedicados à medicina felina.</p>
+        <ul>
+          <li>Gatos com doença renal crônica, FELV e casos geriátricos</li>
+          <li>Acompanhamento contínuo de pacientes crônicos</li>
+          <li>Clínica médica de cães</li>
+        </ul>
+        <span class="pend">CRMV-PR a confirmar</span>
+        <a class="btn btn--ghost btn--sm" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20com%20a%20Dra.%20Lu%C3%ADsa%20%28medicina%20felina%29." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Agendar com a Dra. Luísa</a>
+      </article>
+
+      <article class="vet reveal">
+        <div class="vet-foto">
+          <div class="foto">
+              <!-- SLOT DE FOTO: Foto do Dr. Rafael Saconatto. Para usar: troque a div .foto-vazia por <img src="assets/img/SEU-ARQUIVO.webp" alt="descrição real da foto" loading="lazy"> -->
+              <div class="foto-vazia"><svg class="ico" aria-hidden="true"><use href="#i-camera"/></svg><span>Foto do Dr. Rafael Saconatto</span></div>
+            </div>
+        </div>
+        <h3>Dr. Rafael Saconatto</h3>
+        <span class="tag">Pets exóticos · animais silvestres</span>
+        <p>Cofundador e sócio desde a abertura. Referência regional em medicina de animais exóticos e não convencionais.</p>
+        <ul>
+          <li>Aves, répteis, quelônios, mamíferos exóticos e peixes</li>
+          <li>Ministra o Curso de Medicina de Pets Exóticos, 5ª edição</li>
+          <li>Clínica e cirurgia de pacientes não convencionais</li>
+        </ul>
+        <span class="pend">CRMV-PR a confirmar</span>
+        <a class="btn btn--ghost btn--sm" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20com%20o%20Dr.%20Rafael%20%28pets%20ex%C3%B3ticos%29." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Agendar com o Dr. Rafael</a>
+      </article>
+    </div>
+
+    <div class="grupo-titulo reveal"><h3>Equipe de plantão</h3></div>
+    <div class="team-3">
+      <article class="vet vet--vaga reveal">
+        <div class="vet-foto">
+          <div class="foto">
+              <!-- SLOT DE FOTO: Foto do profissional 1. Para usar: troque a div .foto-vazia por <img src="assets/img/SEU-ARQUIVO.webp" alt="descrição real da foto" loading="lazy"> -->
+              <div class="foto-vazia"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg><span>Foto do profissional 1</span></div>
+            </div>
+        </div>
+        <h3><span class="pend">Nome a confirmar</span></h3>
+        <span class="tag">Médico(a)-veterinário(a) plantonista</span>
+        <p>Espaço reservado para um profissional da equipe de plantão: nome, CRMV, formação e área de atuação.</p>
+        <span class="pend">CRMV-PR a confirmar</span>
+      </article>
+      <article class="vet vet--vaga reveal">
+        <div class="vet-foto">
+          <div class="foto">
+              <!-- SLOT DE FOTO: Foto do profissional 2. Para usar: troque a div .foto-vazia por <img src="assets/img/SEU-ARQUIVO.webp" alt="descrição real da foto" loading="lazy"> -->
+              <div class="foto-vazia"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg><span>Foto do profissional 2</span></div>
+            </div>
+        </div>
+        <h3><span class="pend">Nome a confirmar</span></h3>
+        <span class="tag">Médico(a)-veterinário(a) plantonista</span>
+        <p>Espaço reservado para um profissional da equipe de plantão: nome, CRMV, formação e área de atuação.</p>
+        <span class="pend">CRMV-PR a confirmar</span>
+      </article>
+      <article class="vet vet--vaga reveal">
+        <div class="vet-foto">
+          <div class="foto">
+              <!-- SLOT DE FOTO: Foto do profissional 3. Para usar: troque a div .foto-vazia por <img src="assets/img/SEU-ARQUIVO.webp" alt="descrição real da foto" loading="lazy"> -->
+              <div class="foto-vazia"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg><span>Foto do profissional 3</span></div>
+            </div>
+        </div>
+        <h3><span class="pend">Nome a confirmar</span></h3>
+        <span class="tag">Médico(a)-veterinário(a) plantonista</span>
+        <p>Espaço reservado para um profissional da equipe de plantão: nome, CRMV, formação e área de atuação.</p>
+        <span class="pend">CRMV-PR a confirmar</span>
+      </article>
+    </div>
+
+    <p class="note reveal"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+      <span><strong>Os três espaços acima estão prontos para a equipe de plantão.</strong> Não foi possível confirmar em fonte pública os nomes dos plantonistas — a clínica precisa informar nome, CRMV, formação e área de atuação de cada um, mais a foto.
+      <span class="pend">Lista oficial da equipe a confirmar</span></span></p>
+  </div>
+</section>
+
+<!-- ===================== PACIENTES ===================== -->
+<section class="section" id="pacientes" aria-labelledby="t-pac">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Nossos pacientes</p>
+      <h2 id="t-pac">Quem já passou por aqui</h2>
+      <p>Cães, gatos, aves, répteis, coelhos e peixes atendidos na BichoZen. Os quatro primeiros são casos que a própria clínica já publicou.</p>
+    </div>
+
+    <div class="galeria" data-stagger>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Zezinho (Filhote de ema — fauna silvestre). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Zezinho atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-silvestre"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Zezinho</b><span>Filhote de ema — fauna silvestre</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Píton-carpete (Réptil — consulta e pesagem). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Píton-carpete atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-reptil"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Píton-carpete</b><span>Réptil — consulta e pesagem</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Jabuti (Quelônio — avaliação clínica). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Jabuti atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-quelonio"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Jabuti</b><span>Quelônio — avaliação clínica</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Carpa (Peixe — coleta de sangue). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Carpa atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-peixe"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Carpa</b><span>Peixe — coleta de sangue</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Calopsita (Ave — consulta de rotina). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Calopsita atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-ave"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Calopsita</b><span>Ave — consulta de rotina</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Coelho (Mamífero exótico — preventiva). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Coelho atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-coelho"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Coelho</b><span>Mamífero exótico — preventiva</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Gato (Medicina felina — acompanhamento). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Gato atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-gato"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Gato</b><span>Medicina felina — acompanhamento</span></figcaption>
+      </figure>
+      <figure class="pet reveal">
+        <div class="foto">
+          <!-- SLOT DE FOTO: Cão (Clínica médica e preventiva). Para usar: troque a div .foto-vazia por <img src="assets/img/pacientes/ARQUIVO.webp" alt="Cão atendido na BichoZen" loading="lazy"> -->
+          <div class="foto-vazia"><svg class="art" style="width:30px;height:30px" aria-hidden="true"><use href="#a-cao"/></svg><span>Espaço para foto</span></div>
+        </div>
+        <figcaption><b>Cão</b><span>Clínica médica e preventiva</span></figcaption>
+      </figure>
+    </div>
+
+    <p class="galeria-foot reveal">Oito espaços prontos para as fotos reais da clínica.
+      <span class="pend">Fotos a inserir — pedir os arquivos originais e a autorização dos tutores</span></p>
+  </div>
+</section>
+
+<!-- ===================== DEPOIMENTOS ===================== -->
+<section class="section" aria-labelledby="t-dep">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">O que os tutores escreveram</p>
+      <h2 id="t-dep">Avaliações públicas de quem já passou por aqui</h2>
+    </div>
+
+    <div class="nota reveal">
+      <div class="nota-num">4,5</div>
+      <div>
+        <span class="stars" role="img" aria-label="4,5 de 5 estrelas">
+          <span class="stars-bg" aria-hidden="true"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+          <span class="stars-fg" style="width:90%" aria-hidden="true"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+        </span>
+        <p>Nota da clínica no Perfil da Empresa no Google, conferida em 23/09/2026.
+          <span class="pend">Número total de avaliações a confirmar</span></p>
+        <a href="https://www.google.com/maps/place/Clinica+Veterin%C3%A1ria+Bicho+Zen/" target="_blank" rel="noopener">Ver as avaliações no Google</a>
+      </div>
+    </div>
+
+    <div class="quotes">
+      <figure class="quote reveal">
+        <svg class="quote-ico" aria-hidden="true"><use href="#i-quote"/></svg>
+        <span class="tag">Pets exóticos</span>
+        <blockquote>&ldquo;Não consegui nenhuma outra clínica que atendesse ele no fim de semana.&rdquo;</blockquote>
+        <figcaption>
+          <span class="quote-av"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg></span>
+          <span><b><span class="pend">Nome do tutor a confirmar</span></b><small>Avaliação pública no Google</small></span>
+        </figcaption>
+      </figure>
+      <figure class="quote reveal">
+        <svg class="quote-ico" aria-hidden="true"><use href="#i-quote"/></svg>
+        <span class="tag">Medicina felina</span>
+        <blockquote>&ldquo;Fecharam um diagnóstico que outras clínicas não conseguiram fechar.&rdquo;</blockquote>
+        <figcaption>
+          <span class="quote-av"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg></span>
+          <span><b><span class="pend">Nome do tutor a confirmar</span></b><small>Síntese de avaliações públicas no Google</small></span>
+        </figcaption>
+      </figure>
+      <figure class="quote reveal">
+        <svg class="quote-ico" aria-hidden="true"><use href="#i-quote"/></svg>
+        <span class="tag">Plantão 24h</span>
+        <blockquote>&ldquo;Recepção nota mil — desde a recepção até a consulta.&rdquo;</blockquote>
+        <figcaption>
+          <span class="quote-av"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg></span>
+          <span><b><span class="pend">Nome do tutor a confirmar</span></b><small>Avaliação pública no Google</small></span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ANTES DE VIR ===================== -->
+<section class="section" aria-labelledby="t-antes">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Antes de vir</p>
+      <h2 id="t-antes">O que costuma resolver metade das dúvidas</h2>
+    </div>
+    <div class="facts">
+      <div class="fact reveal"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span><b>Emergência não precisa agendar</b><span>O plantão é presencial: venha direto. Ligar no caminho ajuda a equipe a se preparar.</span></span></div>
+      <div class="fact reveal"><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg><span><b>Consulta de rotina, sim</b><span>Agende pelo WhatsApp — é mais rápido e você escolhe o profissional.</span></span></div>
+      <div class="fact reveal"><svg class="ico" aria-hidden="true"><use href="#i-card"/></svg><span><b>Pagamento</b><span>Cartão de crédito, débito e pagamento por aproximação (NFC).</span></span></div>
+      <div class="fact reveal"><svg class="ico" aria-hidden="true"><use href="#i-wheel"/></svg><span><b>Acessibilidade</b><span>Entrada, banheiro e estacionamento acessíveis para cadeirantes.</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section section--alt" id="faq" aria-labelledby="t-faq">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Dúvidas reais</p>
+      <h2 id="t-faq">Perguntas que a recepção mais ouve</h2>
+    </div>
+    <div class="faq">
+      <div class="q reveal">
+        <button class="q-btn" aria-expanded="false">Vocês atendem agora, de madrugada ou no fim de semana?<svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="q-body"><div><p>Sim. A BichoZen é uma clínica veterinária <strong>24 horas</strong>, com plantão clínico-cirúrgico presencial todos os dias. Se o seu pet está passando mal agora, ligar para <a href="tel:+554330370755">(43) 3037-0755</a> é o caminho mais rápido — a equipe já começa a se preparar enquanto você está no trânsito.</p></div></div>
+      </div>
+      <div class="q reveal">
+        <button class="q-btn" aria-expanded="false">Vocês atendem pets exóticos e animais silvestres?<svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="q-body"><div><p>Sim, e é a nossa especialização mais forte. Temos atendimento documentado a <strong>aves</strong> (calopsitas, papagaios, araras e pássaros em geral), <strong>répteis</strong> (serpentes e lagartos), <strong>quelônios</strong> (jabutis e tartarugas), <strong>coelhos e roedores</strong> e até <strong>peixes</strong> — incluindo cirurgia e coleta de sangue.</p><p>O atendimento é conduzido pelo Dr. Rafael Saconatto, que ministra o Curso Teórico-Prático em Medicina de Pets Exóticos, já na 5ª edição, para outros veterinários e estudantes.</p></div></div>
+      </div>
+      <div class="q reveal">
+        <button class="q-btn" aria-expanded="false">Preciso ligar antes de levar meu pet?<svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="q-body"><div><p>Para <strong>emergência, não</strong>: o plantão é presencial e você pode vir direto. Ainda assim, ligar no caminho ajuda — a equipe se organiza antes de você chegar.</p><p>Para <strong>consulta de rotina</strong>, recomendamos agendar. <a href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar pelo WhatsApp</a> é o jeito mais simples.</p></div></div>
+      </div>
+      <div class="q reveal">
+        <button class="q-btn" aria-expanded="false">Onde vocês ficam e como é o acesso?<svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="q-body"><div><p>Estamos na <strong>Av. Juscelino Kubitschek, 2525</strong>, bairro Ipiranga, em Londrina/PR — no prédio com o jardim de palmeiras e o nome aplicado no muro de pedra.</p><p>A entrada, o banheiro e o estacionamento são <strong>acessíveis para cadeirantes</strong>. <a href="https://www.google.com/maps/dir/?api=1&amp;destination=-23.3196385,-51.164115" target="_blank" rel="noopener">Abrir a rota no Google Maps</a>.</p></div></div>
+      </div>
+      <div class="q reveal">
+        <button class="q-btn" aria-expanded="false">Quais formas de pagamento vocês aceitam?<svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="q-body"><div><p>Cartão de crédito, cartão de débito e pagamento por aproximação (NFC).</p><p>Para valores de consulta e de procedimentos, fale com a recepção pelo <a href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20BichoZen%20e%20gostaria%20de%20falar%20com%20a%20cl%C3%ADnica." target="_blank" rel="noopener">WhatsApp</a> ou pelo telefone — assim você recebe a informação atualizada antes de sair de casa.</p></div></div>
+      </div>
+      <div class="q reveal">
+        <button class="q-btn" aria-expanded="false">De quais cidades vocês recebem tutores?<svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg></button>
+        <div class="q-body"><div><p>A clínica fica em Londrina e atende tutores da cidade e da região. No caso de pets exóticos, é comum que o tutor venha de mais longe, porque há pouquíssimos serviços especializados na região — e menos ainda com plantão 24 horas.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LOCALIZAÇÃO ===================== -->
+<section class="section" id="local" aria-labelledby="t-local">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Como chegar</p>
+      <h2 id="t-local">Estamos abertos agora, na Av. JK, 2525</h2>
+      <p>Bairro Ipiranga, Londrina/PR — no prédio com o jardim de palmeiras e o nome no muro de pedra.</p>
+    </div>
+
+    <div class="local">
+      <div class="info">
+        <div class="info-card reveal">
+          <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>
+          <div>
+            <b>Endereço</b>
+            <strong>Av. Juscelino Kubitschek, 2525</strong>
+            <span>Ipiranga — Londrina/PR · estacionamento acessível</span>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>
+          <div>
+            <b>Horário</b>
+            <strong>Aberto 24 horas</strong>
+            <span>Todos os dias, feriados incluídos</span>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+          <div>
+            <b>Telefone e WhatsApp</b>
+            <strong><a href="tel:+554330370755">(43) 3037-0755</a></strong>
+            <span><a href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20BichoZen%20e%20gostaria%20de%20falar%20com%20a%20cl%C3%ADnica." target="_blank" rel="noopener">WhatsApp (43) 99142-1179</a></span>
+          </div>
+        </div>
+        <div class="info-card reveal">
+          <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+          <div>
+            <b>E-mail</b>
+            <strong style="font-size:.98rem"><a href="mailto:veterinariabichozen@gmail.com">veterinariabichozen@gmail.com</a></strong>
+          </div>
+        </div>
+        <a class="btn btn--brand reveal" href="https://www.google.com/maps/dir/?api=1&amp;destination=-23.3196385,-51.164115" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-route"/></svg> Traçar rota até a clínica</a>
+      </div>
+
+      <div class="map reveal">
+        <iframe title="Mapa com a localização da BichoZen na Av. Juscelino Kubitschek, 2525, Londrina" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-51.1691%2C-23.3236%2C-51.1591%2C-23.3156&amp;layer=mapnik&amp;marker=-23.3196385%2C-51.164115"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FICHA DE AGENDAMENTO ===================== -->
+<section class="section" id="agendar" aria-labelledby="t-agendar">
+  <div class="wrap">
+    <div class="head head--center reveal">
+      <p class="eyebrow">Agendamento</p>
+      <h2 id="t-agendar">Prefere deixar tudo preenchido? Agende por aqui</h2>
+      <p>A ficha reúne o que a recepção precisa saber antes de marcar: a espécie, o tipo de atendimento e o que você notou no seu bicho.</p>
+    </div>
+
+    <div class="agenda">
+      <div class="agenda-side">
+        <div class="steps reveal">
+          <h3>Como funciona</h3>
+          <ol class="steps-list">
+            <li><b>Você preenche a ficha.</b> Leva menos de um minuto.</li>
+            <li><b>Abrimos o WhatsApp da clínica</b> com tudo já escrito — você confere e envia.</li>
+            <li><b>A recepção responde</b> com os horários disponíveis para a espécie e o profissional.</li>
+          </ol>
+          <p class="steps-foot">Nada fica guardado neste site: as informações vão direto para a conversa com a clínica.</p>
+        </div>
+
+        <div class="alerta reveal">
+          <svg class="ico" aria-hidden="true"><use href="#i-siren"/></svg>
+          <div>
+            <b>Emergência não espera formulário</b>
+            <span>Se o seu bicho está passando mal agora, ligue. O plantão é presencial e atende 24 horas, todos os dias.</span>
+            <a class="btn btn--emerg btn--sm" href="tel:+554330370755"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Ligar (43) 3037-0755</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="form-card reveal" id="fichaAgendamento" novalidate>
+        <div class="form-row">
+          <div class="form-group" id="g-nome">
+            <label for="fNome">Nome completo <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="fNome" name="nome" placeholder="Seu nome" autocomplete="name" required>
+            <span class="erro-msg">Preencha o seu nome.</span>
+          </div>
+          <div class="form-group" id="g-tel">
+            <label for="fTel">Telefone / WhatsApp <span class="req" aria-hidden="true">*</span></label>
+            <input type="tel" id="fTel" name="telefone" placeholder="(43) 90000-0000" autocomplete="tel" inputmode="tel" required>
+            <span class="erro-msg">Precisamos de um telefone para retornar.</span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fEmail">E-mail <small>(opcional)</small></label>
+            <input type="email" id="fEmail" name="email" placeholder="seu@email.com" autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="fPet">Nome do animal <small>(opcional)</small></label>
+            <input type="text" id="fPet" name="pet" placeholder="Como ele se chama">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group" id="g-esp">
+            <label for="fEspecie">Espécie <span class="req" aria-hidden="true">*</span></label>
+            <select id="fEspecie" name="especie" required>
+              <option value="">Selecione…</option>
+              <option>Cão</option>
+              <option>Gato</option>
+              <option>Ave (calopsita, papagaio, arara…)</option>
+              <option>Serpente</option>
+              <option>Lagarto</option>
+              <option>Jabuti ou tartaruga</option>
+              <option>Coelho</option>
+              <option>Roedor (hamster, porquinho-da-índia, gerbil)</option>
+              <option>Peixe</option>
+              <option>Animal silvestre</option>
+              <option>Outro / não sei informar</option>
+            </select>
+            <span class="erro-msg">Escolha a espécie do seu animal.</span>
+          </div>
+          <div class="form-group">
+            <label for="fTipo">Tipo de atendimento</label>
+            <select id="fTipo" name="tipo">
+              <option>Primeira consulta</option>
+              <option>Consulta de rotina</option>
+              <option>Retorno</option>
+              <option>Vacinação</option>
+              <option>Castração</option>
+              <option>Odontologia (profilaxia)</option>
+              <option>Avaliação de pet exótico</option>
+              <option>Acompanhamento de caso crônico</option>
+              <option>Ainda não sei — preciso de orientação</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fHorario">Melhor horário</label>
+            <select id="fHorario" name="horario">
+              <option>Qualquer horário</option>
+              <option>Manhã</option>
+              <option>Tarde</option>
+              <option>Noite</option>
+              <option>Madrugada</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fProf">Profissional</label>
+            <select id="fProf" name="profissional">
+              <option>Sem preferência</option>
+              <option>Dra. Luísa Padovani — medicina felina</option>
+              <option>Dr. Rafael Saconatto — pets exóticos</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="fObs">O que você notou <small>(sintomas, mudança de comportamento, há quanto tempo)</small></label>
+          <textarea id="fObs" name="observacao" rows="4" placeholder="Ex.: parou de comer há dois dias, está mais quieto que o normal e vomitou ontem à noite."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--wa btn--block"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Enviar ficha pelo WhatsApp</button>
+        <p class="form-foot">Ao enviar, o WhatsApp da clínica abre com a ficha preenchida. Você confere antes de mandar.</p>
+        <p class="form-ok" id="fichaOk" role="status">Pronto! O WhatsApp abriu em outra aba com a sua ficha. Se não abrir, chame a clínica em (43) 99142-1179.</p>
+        <noscript><p class="form-foot">Seu navegador está sem JavaScript. Fale direto pelo WhatsApp (43) 99142-1179 ou ligue (43) 3037-0755.</p></noscript>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA FINAL ===================== -->
+<section class="cta-final">
+  <div class="wrap">
+    <div class="cta-box">
+    <h2>Se o seu bicho não pode esperar, a gente também não</h2>
+    <p>O plantão está funcionando agora — para cães, gatos, aves, répteis, coelhos, roedores e peixes. A qualquer hora, todos os dias.</p>
+    <div class="btn-row">
+      <a class="btn btn--emerg" href="tel:+554330370755"><span class="btn-dot"></span><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Ligar (43) 3037-0755</a>
+      <a class="btn btn--wa" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Falar no WhatsApp</a>
+    </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== RODAPÉ ===================== -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="#topo" style="margin-bottom:12px">
+          <svg class="logo-mark" viewBox="0 0 24 24" aria-hidden="true"><use href="#a-gato"/></svg>
+          <span><b>Bicho Zen</b><small>Cuidando com propósito desde 2016</small></span>
+        </a>
+        <p>Clínica veterinária 24 horas em Londrina/PR. Atendemos cães, gatos, pets exóticos e animais silvestres.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/clinicabichozen/" target="_blank" rel="noopener" aria-label="Instagram da BichoZen"><svg class="ico" aria-hidden="true"><use href="#i-insta"/></svg></a>
+          <a href="https://www.facebook.com/BichoZenVet/" target="_blank" rel="noopener" aria-label="Facebook da BichoZen"><svg class="ico" aria-hidden="true"><use href="#i-face"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Nesta página</h4>
+        <ul>
+          <li><a href="#emergencia">Emergência 24h</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#exoticos">Pets exóticos</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#pacientes">Nossos pacientes</a></li>
+          <li><a href="#faq">Dúvidas frequentes</a></li>
+          <li><a href="#local">Como chegar</a></li>
+          <li><a href="#agendar">Agendar consulta</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="tel:+554330370755">(43) 3037-0755 — fixo</a></li>
+          <li><a href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20BichoZen%20e%20gostaria%20de%20falar%20com%20a%20cl%C3%ADnica." target="_blank" rel="noopener">(43) 99142-1179 — WhatsApp</a></li>
+          <li><a href="mailto:veterinariabichozen@gmail.com">veterinariabichozen@gmail.com</a></li>
+          <li>Av. Juscelino Kubitschek, 2525</li>
+          <li>Ipiranga — Londrina/PR</li>
+          <li>Aberto 24 horas, todos os dias</li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <p>© 2026 Clínica Veterinária Bicho Zen LTDA · CNPJ 23.755.800/0001-18 · Av. Juscelino Kubitschek, 2525 — Ipiranga, Londrina/PR</p>
+      <p style="margin-top:6px">Responsável Técnico: <span class="pend">CRMV-PR a confirmar</span></p>
+    </div>
+  </div>
+</footer>
+
+<!-- barra fixa (mobile) e botão flutuante (desktop) -->
+<div class="bar">
+  <a class="btn btn--emerg" href="tel:+554330370755"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg> Ligar 24h</a>
+  <a class="btn btn--wa" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> WhatsApp</a>
+  <a class="btn btn--ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination=-23.3196385,-51.164115" target="_blank" rel="noopener" aria-label="Traçar rota até a clínica"><svg class="ico" aria-hidden="true"><use href="#i-route"/></svg></a>
+</div>
+<a class="float" href="https://wa.me/5543991421179?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20BichoZen%20e%20gostaria%20de%20falar%20com%20a%20cl%C3%ADnica." target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+
+<script>
+/* BichoZen V3 — ~50 linhas, sem dependências. */
+(function(){
+  "use strict";
+  document.documentElement.classList.add("js");
+
+  /* 1. FAQ — acordeão acessível */
+  document.querySelectorAll(".q-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var open = btn.getAttribute("aria-expanded") === "true";
+      document.querySelectorAll(".q-btn").forEach(function(o){ o.setAttribute("aria-expanded","false"); });
+      btn.setAttribute("aria-expanded", open ? "false" : "true");
+    });
+  });
+
+  /* 2. Sombra no cabeçalho ao rolar */
+  var hdr = document.querySelector(".hdr");
+  var onScroll = function(){ hdr.classList.toggle("is-stuck", window.scrollY > 8); };
+  window.addEventListener("scroll", onScroll, {passive:true});
+  onScroll();
+
+  /* 3. Revelar seções ao entrar na tela (com rede de segurança) */
+  var alvos = document.querySelectorAll(".reveal");
+  var mostrarTudo = function(){ alvos.forEach(function(el){ el.classList.add("in"); }); };
+  if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    mostrarTudo();
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, {rootMargin:"0px 0px -8% 0px", threshold:0.08});
+    alvos.forEach(function(el){ io.observe(el); });
+    setTimeout(mostrarTudo, 2500); /* se algo falhar, o conteúdo aparece mesmo assim */
+  }
+  /* 4. Ficha de agendamento
+     Não há servidor: a ficha vira uma mensagem pronta no WhatsApp da clínica,
+     que é o canal que a recepção já opera. O tutor confere antes de enviar. */
+  var ficha = document.getElementById("fichaAgendamento");
+  if (ficha) {
+    var OBRIGATORIOS = ["fNome", "fTel", "fEspecie"];
+    var val = function (id) { var e = document.getElementById(id); return e ? e.value.trim() : ""; };
+    var grupo = function (el) { return el.closest ? el.closest(".form-group") : null; };
+
+    /* o aviso de erro some assim que a pessoa começa a corrigir */
+    OBRIGATORIOS.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      ["input", "change"].forEach(function (ev) {
+        el.addEventListener(ev, function () {
+          var g = grupo(el);
+          if (g && el.value.trim()) g.classList.remove("erro");
+        });
+      });
+    });
+
+    ficha.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      var primeiroErro = null;
+      OBRIGATORIOS.forEach(function (id) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        var vazio = !el.value.trim();
+        var g = grupo(el);
+        if (g) g.classList[vazio ? "add" : "remove"]("erro");
+        if (vazio && !primeiroErro) primeiroErro = el;
+      });
+      if (primeiroErro) { primeiroErro.focus(); return; }
+
+      var linha = function (rotulo, valor) { return valor ? rotulo + ": " + valor + "\n" : ""; };
+      var animal = val("fPet") ? val("fPet") + " (" + val("fEspecie") + ")" : val("fEspecie");
+
+      var texto = "Olá! Vim pelo site e gostaria de agendar uma consulta.\n\n"
+        + linha("Tutor", val("fNome"))
+        + linha("Telefone", val("fTel"))
+        + linha("E-mail", val("fEmail"))
+        + linha("Animal", animal)
+        + linha("Atendimento", val("fTipo"))
+        + linha("Melhor horário", val("fHorario"))
+        + linha("Profissional", val("fProf"))
+        + (val("fObs") ? "\nO que notei: " + val("fObs") : "");
+
+      var link = "https://wa.me/5543991421179?text=" + encodeURIComponent(texto);
+      var aba = window.open(link, "_blank");
+      if (aba) { aba.opener = null; } else { window.location.href = link; }
+
+      var ok = document.getElementById("fichaOk");
+      if (ok) ok.classList.add("on");
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"VeterinaryCare",
+      "@id":"https://clinicabichozen.com.br/#clinica",
+      "name":"Clínica Veterinária Bicho Zen",
+      "alternateName":"BichoZen",
+      "slogan":"Cuidando com propósito desde 2016",
+      "url":"https://clinicabichozen.com.br/",
+      "telephone":"+554330370755",
+      "email":"veterinariabichozen@gmail.com",
+      "address":{"@type":"PostalAddress","streetAddress":"Av. Juscelino Kubitschek, 2525","addressLocality":"Londrina","addressRegion":"PR","addressCountry":"BR"},
+      "geo":{"@type":"GeoCoordinates","latitude":-23.3196385,"longitude":-51.164115},
+      "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}],
+      "availableService":[
+        {"@type":"MedicalProcedure","name":"Emergência e plantão veterinário 24 horas"},
+        {"@type":"MedicalProcedure","name":"Atendimento a pets exóticos e animais silvestres"},
+        {"@type":"MedicalProcedure","name":"Medicina felina"},
+        {"@type":"MedicalProcedure","name":"Consultas e medicina preventiva"},
+        {"@type":"MedicalProcedure","name":"Cirurgia veterinária"},
+        {"@type":"MedicalProcedure","name":"Internação com acompanhamento 24 horas"},
+        {"@type":"MedicalProcedure","name":"Exames e coleta"},
+        {"@type":"MedicalProcedure","name":"Odontologia veterinária"}
+      ],
+      "sameAs":["https://www.instagram.com/clinicabichozen/","https://www.facebook.com/BichoZenVet/"]
+    },
+    {
+      "@type":"FAQPage",
+      "@id":"https://clinicabichozen.com.br/#faq",
+      "mainEntity":[
+        {"@type":"Question","name":"Vocês atendem agora, de madrugada ou no fim de semana?","acceptedAnswer":{"@type":"Answer","text":"Sim. A BichoZen é uma clínica veterinária 24 horas, com plantão clínico-cirúrgico presencial todos os dias. Se o seu pet está passando mal agora, ligar para (43) 3037-0755 é o caminho mais rápido."}},
+        {"@type":"Question","name":"Vocês atendem pets exóticos e animais silvestres?","acceptedAnswer":{"@type":"Answer","text":"Sim. Há atendimento documentado a aves (calopsitas, papagaios, araras), répteis (serpentes e lagartos), quelônios (jabutis e tartarugas), coelhos e roedores e peixes, incluindo cirurgia e coleta de sangue. O atendimento é conduzido pelo Dr. Rafael Saconatto, que ministra o Curso Teórico-Prático em Medicina de Pets Exóticos, na 5ª edição."}},
+        {"@type":"Question","name":"Preciso ligar antes de levar meu pet?","acceptedAnswer":{"@type":"Answer","text":"Para emergência, não: o plantão é presencial e você pode vir direto. Ligar no caminho ajuda a equipe a se preparar. Para consulta de rotina, recomendamos agendar pelo WhatsApp."}},
+        {"@type":"Question","name":"Onde vocês ficam e como é o acesso?","acceptedAnswer":{"@type":"Answer","text":"Av. Juscelino Kubitschek, 2525, bairro Ipiranga, Londrina/PR. A entrada, o banheiro e o estacionamento são acessíveis para cadeirantes."}},
+        {"@type":"Question","name":"Quais formas de pagamento vocês aceitam?","acceptedAnswer":{"@type":"Answer","text":"Cartão de crédito, cartão de débito e pagamento por aproximação (NFC). Para valores, fale com a recepção pelo WhatsApp ou pelo telefone."}},
+        {"@type":"Question","name":"De quais cidades vocês recebem tutores?","acceptedAnswer":{"@type":"Answer","text":"A clínica fica em Londrina e atende tutores da cidade e da região. No caso de pets exóticos, é comum que o tutor venha de mais longe, porque há poucos serviços especializados na região."}}
+      ]
+    }
+  ]
+}
+</script>
+</body>
+</html>
